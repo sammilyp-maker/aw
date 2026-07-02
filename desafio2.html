@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+      body{
+        background-color: lightgray;
+        font-family:Arial, Helvetica, sans-serif;
+       /* font-family:'Courier New', Courier, monospace */
+       /* font-family:'Times New Roman', Times, serif */
+
+      }
+      
+    </style>
 </head>
 <body>
     
 
-<h1>cadastro de participação de oficina</h1>
+<h1 style="color: navy; background-color: aqua; ">cadastro de participação de oficina</h1>
 <form action="#">
-<label for="nome">Nome completo</label><br>
-<input type="text" id="nome" name="nome"><br>
-
-
-
-<form action="#">
-<label for="nome">Senha de acesso</label><br>
+<label for="nome" class="negrito">Nome completo</label><br>
 <input type="text" id="nome" name="nome"><br>
 
 <p></p>
 
-<label for="linguagens">Oficina principal</label><br>
+<form action="#">
+<label for="nome" class="negrito">Senha de acesso</label><br>
+<input type="text" id="nome" name="nome"><br>
+
+<p></p>
+
+<label for="linguagens" class="negrito">Oficina principal</label><br>
 <select name="linguagens" id="linguagens">
 <option value="oficina">Selecione uma oficina</option>
 <option value="html">HTML</option>
@@ -33,7 +44,7 @@
 <br>
 
 
-<p>Turno:</p>
+<p class="courier">Turno:</p>
 
 <input type="radio" id="sim" name="brasil" value="sim">
 <label for="sim">Sim</label>
@@ -69,7 +80,7 @@
 
     <section>
       <h2>Participantes ja inscritos</h2>
-      <table border="1">
+      <table border="1" id="tabela">
         <thead>
           <tr>
             <th>Nome</th>
@@ -119,7 +130,15 @@
       </table>
     </section>
 
+    <h2>Destacando parte espevifica do texto</h2>
     
-    
+    <p>
+      Lorem ipsum <span class="negrito">dolor</span> sit, amet consectetur adipisicing elit. 
+      Eum dignissimos commodi debitis eveniet pariatur voluptate 
+      amet corporis nostrum harum alias, expedita labore minus 
+      voluptatem temporibus dolorum possimus. Veritatis, quae aliquid.
+    </p>
+  </select>
+
 </body>
 </html>

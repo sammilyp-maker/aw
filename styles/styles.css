@@ -1,0 +1,29 @@
+/* seleção de elementos */
+h2{
+font-family: 'Courier New', Courier, monospace;
+color:purple;
+}
+
+
+#tabela {
+   text-align: center;
+   background-color: pink;
+}
+
+/* seleção de clase */
+.negrito {
+   font-weight:bold ;
+
+}
+
+p.courier {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    font-style: italic;
+}
+
+form butthon {
+    background-color: brown;
+}
