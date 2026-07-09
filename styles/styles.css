@@ -1,7 +1,26 @@
 /* seleção de elementos */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Imperial+Script&display=swap');
+
+:root {
+
+   /* 546a76-88a0a8-b4ceb3-dbd3c9-fad4d8 */
+   --blue-slate: #546a76
+   --glaucous: #88a0a8
+   --sky: #b4ceb3
+   --white: #dbd3c9
+   --coral: #fad4d8
+}
+
+body {
+   font-family: 'Quicksand', 'Arial', sans-serif;
+}
+
 h2{
 font-family: 'Courier New', Courier, monospace;
-color:purple;
+color:rgba(0, 225, 0, 9);
 }
 
 
@@ -21,9 +40,11 @@ p.courier {
 }
 
 h1, h2, h3 {
+   font-family: 'lobster', 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
-form butthon {
-    background-color: brown;
-}
+form button {
+
+    background-color:#DBD3C9;
+   }
