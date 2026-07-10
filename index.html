@@ -4,6 +4,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+
     <title>Autoria Web</title>
   </head>
   <!-- contém o conteúdo visível da página -->
@@ -17,7 +20,8 @@
     <h5>Eu amei Autoria Web!</h5>
     <h6>Eu amei Autoria Web!</h6> -->
 
-      <nav>
+    
+      <nav id="nav-links">
         <ul>
           <li>
             <a href="#">Início</a>
@@ -32,19 +36,33 @@
           </li>
         </ul>
       </nav>
+
+       <p class="negrito fonte-maior">Seções</p>
+      <nav id="nav-sections">
+        <ul>
+          <li>
+            <a href="">seção 1</a>
+          </li>
+          <li>
+            <a href="">seção 2</a>
+          </li>
+          <li>
+            <a href="">seção 3</a>
+          </li>
+          <li>
+            <a href="">seção 4</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-   
-        
-         <br />
+
+    <br />
     <main>
       <section>
-                <h2>seção 1</h2>
-       <div>
-          
-      <section>assets/imgs/foto.jpg" alt="foto de uma pessoa aleatoria" />
+        <h2>seção 1</h2>
+        <div>
+          <img src="assets/imgs/foto.jpg" alt="foto de uma pessoa aleatoria" />
         </div>
-
-        <img src="assets/imgs/foto.jpg" alt="foto de uma pessoa aleatoria" />
 
         <p>
           Lorem ipsum <strong>dolor</strong>, sit amet consectetur adipisicing
@@ -74,6 +92,7 @@
         <img
           src="https://github.com/sammilyp-maker.png"
           alt="avatar do github"
+          class="avatar"
         />
 
         <p>Dicas para alcançar os seus objetivos:</p>
@@ -94,10 +113,8 @@
     </main>
 
     <footer>
-      
       <h3>IFRN-Campus Macau</h3>
       <p>Desenvolvimento do prof. Guilherme Leal</p>
-     
     </footer>
   </body>
 </html>
