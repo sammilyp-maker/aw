@@ -1,5 +1,3 @@
-/* seleção de elementos */
-
 @import url("https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Imperial+Script&display=swap");
 
 :root {
@@ -26,46 +24,24 @@ h2 {
   color: purple (0, 225, 0, 9);
 }
 
-#tabela {
-  text-align: center;
-  background-color: pink;
+
+#inicio {
+background-color: #546a76;
+border-radius: 10px;
+width: 350px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-/* seleção de clase */
-.negrito {
-  font-weight: bold;
-}
 
-p.courier {
-  font-family: "Courier New", Courier, monospace;
-}
 
-h1,
-h2,
-h3 {
-  /* font-family: "Imperial Script", "Times New Roman", Times, serif; */
-  font-style: italic;
-}
 
-form button {
-  background-color: #dbd3c9;
-}
 
-img {
-  height: 200px;
-}
 
-.avatar {
-  border-radius: 50%;
-}
 
-#nav-sections ul {
-  list-style-type: none;
-}
 
-#nav-sections li {
-  display: inline-block;
-}
+
+
 
 a {
   text-decoration: none;
@@ -75,20 +51,8 @@ a {
   border-radius: 5px;
 }
 
-a:hover {
-  color: var(--coral);
-  box-shadow: 0 0 10px var(--coral);
-}
 
-#nav-links li {
-  display: inline-block;
 
-  a {
-    color: red;
-    background-color: pink;
-    border-radius: 5px;
-  }
-}
 
 .fonte-maior {
   font-size: 50px;
@@ -107,4 +71,12 @@ a:hover {
   margin-top: 200px;
   margin-bottom: 200px;
   border-bottom: 10px solid black;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    color: black
+
+
 }
